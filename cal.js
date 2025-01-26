@@ -7,7 +7,7 @@ let string ='';
 buttonsArray.forEach(btn =>{
 
 btn.addEventListener('click',(e) => {
-    if(e.target.innerHTML == 'DEL'){
+    if(e.target.innerHTML == 'DE'){
         string = string.substring(0, string.length-1);
         display.value = string;
 
